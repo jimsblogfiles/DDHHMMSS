@@ -236,6 +236,7 @@
 		8CB5606D15816FA900BA522D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDHHMMSS/DDHHMMSS-Prefix.pch";
 				INFOPLIST_FILE = "DDHHMMSS/DDHHMMSS-Info.plist";
@@ -247,6 +248,7 @@
 		8CB5606E15816FA900BA522D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDHHMMSS/DDHHMMSS-Prefix.pch";
 				INFOPLIST_FILE = "DDHHMMSS/DDHHMMSS-Info.plist";
@@ -274,6 +276,7 @@
 				8CB5606E15816FA900BA522D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
